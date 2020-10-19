@@ -1,0 +1,120 @@
+#page title
+page_title                                : ReceiptsCo                                          # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+
+# App Info
+ios_app_id                                :                                 # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+
+appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+playstore_link                            :                                           # Enter Google Play Store URL.
+presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
+                                                                                      # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
+
+app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name                                  : ReceiptsCo                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price                                 : $1.49                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description                           : Store and Search Receipts Smarlty.
+
+enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
+
+
+
+# Information About Yourself
+your_name                                 : Karma
+your_link                                 : https://codewithkarma.com
+your_city                                 : Brisbane
+email_address                             : karm.singh@outlook.com
+facebook_username                         :                                           
+instagram_username                        :
+twitter_username                          : karmjit_435
+github_username                           :
+youtube_username                          :
+
+
+
+# Feature List                            Edit, add or remove features to be presented.
+features                                  :
+
+  - title                                 : Widgets
+    description                           : Beautiful widgets to keep and eye on the spending summary on a store or configure the widget to keep track on product warranties.
+    fontawesome_icon_name                 : heart
+    
+  - title                                 : Quick create
+    description                           : Quickly create using camera or choose from your photo library. Add existing receipts from photo library..
+    fontawesome_icon_name                 : camera
+
+  - title                                 : Easy Organisation
+    description                           : App helps you keep your receipts in organised way for easy search.
+    fontawesome_icon_name                 : wallet
+
+  - title                                 : Product Tracking
+    description                           : Keep an eye on the product warranties.
+    fontawesome_icon_name                 : eye
+
+  - title                                 : Tagging
+    description                           : Tag the receipts to search them easily later..
+    fontawesome_icon_name                 : tag
+
+
+# Theme Settings
+topbar_color                              : "#000000"
+topbar_transparency                       : 0.1
+topbar_title_color                        : "#ffffff"
+
+cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
+cover_overlay_color                       : "#363b3d"
+cover_overlay_transparency                : 0.8
+
+device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+
+body_background_color                     : "#ffffff"
+
+link_color                                : "#1d63ea"
+
+app_title_color                           : "#ffffff"
+app_price_color                           : "#ffffff"
+app_description_color                     : "#ffffff"
+
+feature_title_color                       : "#000000"
+feature_text_color                        : "#666666"
+
+feature_icons_foreground_color            : "#1d63ea"
+feature_icons_background_color            : "#e6e6e6"
+
+social_icons_foreground_color             : "#666666"
+social_icons_background_color             : "#e6e6e6"
+
+footer_text_color                         : "#666666"
+
+
+
+
+
+
+
+
+
+
+
+
+
+####################################################
+### Jekyll Configuration. No need to touch this. ###
+####################################################
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :compressed # You might prefer to minify using :compressed
+
+# Exclude these files from your production _site
+exclude:
+  - LICENSE
+  - README.md
+  - CNAME
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Markdown rendering
+markdown: kramdown

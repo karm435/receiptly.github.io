@@ -54,7 +54,28 @@ features                                  :
     description                           : Tag the receipts to search them easily later..
     fontawesome_icon_name                 : tag
 
+faqs                                      :
 
+  - title                                 : How do I search for a receipt?
+    description                           : You can use receipt, store, tag or product name to search for a receipt.
+
+  - title                                 : Why it is not free?
+    description                           : We do not display any Ads in the app or sell any user data.
+
+  - title                                 : Do I loose all my images if I delete the app?
+    description                           : No, when you create receipt using camera, the images are also saved in your photo library and this way you always have the images with you even after deleting the app.
+
+  - title                                 : How do I delete a receipt?
+    description                           : You can navigate to All receipts page and can swipe to delete a receipt.
+
+  - title                                 : How do I create/delete a store?
+    description                           : While creating a receipt, when you navigate to store page, you can create a new store or swipe to delete an existing store.
+
+  - title                                 : How do I create/delete a tag?
+    description                           : While creating a receipt, when you navigate to tags page, you can create a new tag or swipe to delete an existing tag.
+
+  - title                                 : Can I select multiple tags?
+    description                           : Yes, you can select multiple tags
 # Theme Settings
 topbar_color                              : "#000000"
 topbar_transparency                       : 0.1

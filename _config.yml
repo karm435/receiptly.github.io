@@ -58,24 +58,32 @@ faqs                                      :
 
   - title                                 : How do I search for a receipt?
     description                           : You can use receipt, store, tag or product name to search for a receipt.
+    fontawesome_icon_name                 : search
 
   - title                                 : Why it is not free?
     description                           : We do not display any Ads in the app or sell any user data.
+    fontawesome_icon_name                 : users
 
   - title                                 : Do I loose all my images if I delete the app?
     description                           : No, when you create receipt using camera, the images are also saved in your photo library and this way you always have the images with you even after deleting the app.
+    fontawesome_icon_name                 : eraser
 
   - title                                 : How do I delete a receipt?
     description                           : You can navigate to All receipts page and can swipe to delete a receipt.
+    fontawesome_icon_name                 : trash
 
   - title                                 : How do I create/delete a store?
     description                           : While creating a receipt, when you navigate to store page, you can create a new store or swipe to delete an existing store.
+    fontawesome_icon_name                 : trash
 
   - title                                 : How do I create/delete a tag?
     description                           : While creating a receipt, when you navigate to tags page, you can create a new tag or swipe to delete an existing tag.
+    fontawesome_icon_name                 : trash
 
   - title                                 : Can I select multiple tags?
     description                           : Yes, you can select multiple tags
+    fontawesome_icon_name                 : tag
+
 # Theme Settings
 topbar_color                              : "#000000"
 topbar_transparency                       : 0.1

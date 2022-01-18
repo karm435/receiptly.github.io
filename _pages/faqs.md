@@ -38,5 +38,5 @@ Yes, you can select multiple tags
 <br>
 
 ## How do I contact for support?
-You can post on the twitter @ReceiptsC and I will try to respond. 
+You can post on the twitter @ReceiptsC.. 
 

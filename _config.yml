@@ -25,7 +25,7 @@ your_city                                 : Brisbane
 email_address                             : karm.singh@outlook.com
 facebook_username                         :                                           
 instagram_username                        :
-twitter_username                          : karmjit_435
+twitter_username                          : ReceiptsC
 github_username                           :
 youtube_username                          :
 
@@ -54,18 +54,22 @@ features                                  :
     description                           : Tag the receipts to search them easily later..
     fontawesome_icon_name                 : tag
 
+  - title                                 : iCloud Sync
+    description                           : App support iCloud sync and your data is not backed up to iCloud and will be synced between devices.
+    fontawesome_icon_name                 : camera
+
 faqs                                      :
 
   - title                                 : How do I search for a receipt?
-    description                           : You can use receipt, store, tag or product name to search for a receipt.
+    description                           : You can use receipt, store, tag or product name to search for a receipt on the home screen.
     fontawesome_icon_name                 : search
 
-  - title                                 : Why it is not free?
-    description                           : We do not display any Ads in the app or sell any user data.
+  - title                                 : Installed app on a new device and it is not showing my data?
+    description                           : Sometime iCloud does not trigger the refresh. Navigate to Settings -> Apple Id Account -> iCloud. After that just come back to the app and you should see the data.
     fontawesome_icon_name                 : users
 
   - title                                 : Do I loose all my images if I delete the app?
-    description                           : No, when you create receipt using camera, the images are also saved in your photo library and this way you always have the images with you even after deleting the app.
+    description                           : No, when you create receipt using camera, the images are also saved in your photo library and this way you always have the images with you even after deleting the app. Also, the iCloud sync is ON for the app and if you have not turned it off then your data is saved on iCloud always.
     fontawesome_icon_name                 : eraser
 
   - title                                 : How do I delete a receipt?
@@ -83,6 +87,10 @@ faqs                                      :
   - title                                 : Can I select multiple tags?
     description                           : Yes, you can select multiple tags
     fontawesome_icon_name                 : tag
+
+  - title                                 : How do I contact for support?
+    description                           : You can post on the twitter @ReceiptsC and I will try to respond. 
+    fontawesome_icon_name                 : users
 
 # Theme Settings
 topbar_color                              : "#000000"

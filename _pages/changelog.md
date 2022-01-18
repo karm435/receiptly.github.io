@@ -18,10 +18,18 @@ App offers widgets to view quick summary of store. Medium size widget helps you 
 <br>
 
 ### `Latest`
-# **Version 1.0.1**
+# **Version 1.1.0**
 This is the first version to our app. 
 
 #### What's New
+- iPad app: Beautiful iPad version of the app is available now and you can do more on the iPad and manage your receipts more smartly.
+  
+- iCloud sync: App now supports the iCloud sync and data will be synced to iCloud if you do not turn it off. Also, the data will be synced between multiple devices if the app is installed on multiple devices and are logged in with same Apple ID.
+  
+
+# **Version 1.0.1**
+This is the first version to our app. 
+
 - Widgets: Beautiful widgets to keep and eye on the spending summary on a store or configure the widget to keep track on product warranties.
   
 - Quick create: Quickly create using camera or choose from your photo library. Add existing receipts from photo library.

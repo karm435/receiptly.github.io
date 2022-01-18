@@ -19,7 +19,6 @@ Sometime app does not trigger the refresh. Navigate to Settings -> Apple Id Acco
 
 ## Do I loose all my images if I delete the app?
 It depends on couple of things, when you create receipt using camera and give permission to the photo library, the images are also saved in your photo library and this way you always have the images with you even after deleting the app. Also, the iCloud sync is ON for the app and if you have not turned it off then your data is saved on iCloud always.
-
 <br>
 
 ## How do I delete a receipt?
@@ -36,7 +35,6 @@ While creating a receipt, when you navigate to tags page, you can create a new t
 
 ## Can I select multiple tags while creating the receipt?
 Yes, you can select multiple tags
-
 <br>
 
 ## How do I contact for support?

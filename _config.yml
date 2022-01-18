@@ -55,7 +55,7 @@ features                                  :
     fontawesome_icon_name                 : tag
 
   - title                                 : iCloud Sync
-    description                           : App support iCloud sync and your data is not backed up to iCloud and will be synced between devices.
+    description                           : App support iCloud sync and your data is backed up to iCloud (If iCloud is enabled for the app in settings) and will be synced between devices.
     fontawesome_icon_name                 : camera
 
 faqs                                      :

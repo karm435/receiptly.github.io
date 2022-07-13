@@ -17,6 +17,10 @@ You can use receipt, store, tag or product name to search for a receipt on the h
 Sometime app does not trigger the refresh. Navigate to Settings -> Apple Id Account -> iCloud. After that just come back to the app and you should see the data.
 <br>
 
+## How do I stop iCloud sync?
+You can navigate Settings and iCloud settings and stop the Receipts Co app from syncing with icloud.
+<br>
+
 ## Do I loose all my images if I delete the app?
 It depends on couple of things, when you create receipt using camera and give permission to the photo library, the images are also saved in your photo library and this way you always have the images with you even after deleting the app. Also, the iCloud sync is ON for the app and if you have not turned it off then your data is saved on iCloud always.
 <br>
@@ -39,4 +43,5 @@ Yes, you can select multiple tags
 
 ## How do I contact for support?
 You can post on the twitter @ReceiptsC.. 
+
 

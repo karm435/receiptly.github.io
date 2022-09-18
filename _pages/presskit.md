@@ -23,7 +23,7 @@ Receipts Co is a free app to download and have no ads. There are in app purchase
 
 ## Screenshots & Assets
 --------
-[Download Press Kit]:{{ site.url }}/downloads/presskit.zip
+[Download Press Kit]({{ site.url }}/downloads/presskit.zip)
 
 <br>
 

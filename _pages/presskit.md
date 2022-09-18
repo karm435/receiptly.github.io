@@ -13,7 +13,6 @@ September 18 2022
 Help Receipts Co grow! I’m Karmjit, the developer of this app. I’m the only one here so I really appreciate your help :D If you have any questions just message me on [twitter]([http://twitter](https://twitter.com/CodeWithKarma)), or [email](karm.singh@outlook.com).
 
 ## Description
------
 Receipts Co is an app to help scan, search receipts and expenses smartly. Search your entire catalog of receipts in a split second. Search in receipts using store name, product name, title etc. Create lists of categories and tags instantly to organise your receipts. 
 
 Receipts Co was designed with privacy in mind, so all processes happen offline and nothing ever leaves your phone. There are no servers, no data collection, no analytics, and no internet connection is required except if you want to sync your receipts across multiple devices.
@@ -22,7 +21,6 @@ Receipts Co is a free app to download and have no ads. There are in app purchase
 
 
 ## Screenshots & Assets
---------
 [Download Press Kit]({{ site.url }}/downloads/presskit.zip)
 
 <br>

@@ -5,11 +5,11 @@ include_in_header: false
 ---
 
 # Description
-ReceiptsCo will help you to store and search all of your receipts, invoices, sales slips, gift cards, and vouchers from different stores in one place and keep record of your shopping history. 
+Receipts Co will help you to store and search all of your receipts, invoices, sales slips, gift cards, and vouchers from different stores in one place and keep record of your shopping history. 
 
 Specifically designed for in-store shopping and saving the hassle of finding receipts. Gives you the freedom from keeping physical copies of receipts.
 
-ReceiptsCo is not restricted to only receipts, you can save your vouchers, invoices or gift cards to keep track of their expiry date.
+Receipts Co is not restricted to only receipts, you can save your vouchers, invoices or gift cards to keep track of their expiry date.
 
 Quickly saves photo of receipt or Invoice on the go while shopping. Customises the details regarding receipts for easy search and tracking. 
 

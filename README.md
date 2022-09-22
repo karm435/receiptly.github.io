@@ -1,6 +1,6 @@
-# website for ReceiptsCo app
+# website for Receipts Co app
 
-This repo contains the contents of the receiptsCo app.
+This repo contains the contents of the Receipts Co app.
 
 
 

@@ -10,7 +10,7 @@ September 18 2022
 # Press Kit
 <br>
 
-Help Receipts Co grow! I’m Karmjit, the developer of this app. I’m the only one here so I really appreciate your help :D If you have any questions just message me on [twitter]([http://twitter](https://twitter.com/CodeWithKarma)), or [email](karm.singh@outlook.com).
+Help Receipts Co grow! I’m Karmjit, the developer of this app. I’m the only developer of the app so I really appreciate your help. If you have any questions just message me on [twitter]([http://twitter](https://twitter.com/CodeWithKarma)), or [email](support@receiptsco.app).
 
 ## Description
 Receipts Co is an app to help scan, search receipts and expenses smartly. Search your entire catalog of receipts in a split second. Search in receipts using store name, product name, title etc. Create lists of categories and tags instantly to organise your receipts. 
@@ -88,4 +88,4 @@ I’m Karmjit Singh, an iOS developer living in Brisbane Australia. Besides codi
 Receipts Co is my first and most fully-featured app. A couple of years ago, I was at the store and I needed to find my receipt for that store and I could not. I looked for some apps in the AppStore to manage receipts but they were not fulfilling all my needs like group by store, tags, and search and warranties. 
 I decided to build my own app.It has been an amazing journey and I am still working on great features for this app. but I think it’s gotten to be pretty useful for stuff beyond that. But anyway, I’m very committed to user privacy. No one likes apps that sell your data. My app don’t collect data, and have pro features for pro users who want to do more that just saving and searching of receipts.
 
-You can contact me anytime on [twitter]([http://twitter](https://twitter.com/CodeWithKarma)), or [email](karm.singh@outlook.com).
+You can contact me anytime on [twitter]([http://twitter](https://twitter.com/CodeWithKarma)), or [email](support@receiptsco.app).

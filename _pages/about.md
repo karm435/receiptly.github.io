@@ -1,0 +1,29 @@
+---
+layout: page
+title: About
+include_in_header: true
+---
+
+**Last updated**  
+September 23 2022
+
+# About
+
+## About Karma Academy
+Karma Academy is an Australian-registered business. It develops apps for Apple technologies including iOS, iPad, macOS, watchOS and tvOS. 
+
+## About Receipts Co
+Karma Academy owns ‘Receipts Co’, an app which helps users store and search for receipts, invoices, sales slips, gift cards, and vouchers and keep a record of their shopping history. The app uses optical character recognition (OCR) to convert images into text. It is designed for in-store shopping and saving the hassle of finding receipts. In addition, it gives users freedom from physical copies while maintaining user data privacy. 
+
+## Contact
+You can react at support@receiptsco.app for Receipts Co related quries and support.
+
+## Postal Address
+You can write to Karma Academy for any queries at
+8 John Storey Court,
+Park Ridge,
+4125
+Queensland
+Australia
+
+

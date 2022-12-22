@@ -18,12 +18,4 @@ Karma Academy owns ‘Receipts Co’, an app which helps users store and search 
 ## Contact
 You can react at support@receiptsco.app for Receipts Co related quries and support.
 
-## Postal Address
-You can write to Karma Academy for any queries at
-8 John Storey Court,
-Park Ridge,
-4125
-Queensland
-Australia
-
 

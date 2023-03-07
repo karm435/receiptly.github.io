@@ -5,13 +5,13 @@ include_in_header: true
 ---
 
 **Last updated**  
-January 18 2022
+March 8 2023
 
 # Frequently asked questions
 <br>
 
 ## How do I search for a receipt?
-You can use receipt, store, tag or product name to search for a receipt on the home screen.
+You can use receipt, category, tag or product name to search for a receipt on the home screen.
 
 ## Installed app on a new device and it is not showing my data synced with iCloud?
 Sometime app does not trigger the refresh. Navigate to Settings -> Apple Id Account -> iCloud. After that just come back to the app and you should see the data.
@@ -26,11 +26,12 @@ It depends on couple of things, when you create receipt using camera and give pe
 <br>
 
 ## How do I delete a receipt?
-You can navigate to All receipts page and can swipe to delete a receipt.
+You can navigate to category details and receipts page and can swipe to delete a receipt.
 <br>
 
-## How do I create/delete a store?
-On iOS you can while creating a receipt, when you navigate to store page, you can create a new store or swipe to delete an existing store. on iPadOS you can navigate to stores tab and create a store.
+## How do I create/delete a category?
+- While creating a receipt, when you navigate to category page, you can create a new category or swipe to delete an existing category. 
+- Navigate to More tab and then Cagetories and manage your categeries. 
 <br>
 
 ## How do I create/delete a tag?
@@ -42,6 +43,16 @@ Yes, you can select multiple tags
 <br>
 
 ## How do I contact for support?
-You can post on the twitter @ReceiptsC.. 
+You can use in app feature to contact the support.
+
+## How do I create an expense
+- Navigate to Expenses tab and you can tab on plus button and create your expense.
+
+## How do I edit an expense
+- Tap on the expense and you can edit your expense
+
+## How do I delete an expesen
+- On the Expenses list you can swipe to the left to delete
+- You can tap on the expense item in the list and click on the trash icon on the top right to delete the expense.
 
 

@@ -18,7 +18,7 @@ Sometime app does not trigger the refresh. Navigate to Settings -> Apple Id Acco
 <br>
 
 ## How do I stop iCloud sync?
-You can navigate Settings and iCloud settings and stop the Receipts Co app from syncing with icloud.
+You can navigate Settings and iCloud settings and stop the Receiptly app from syncing with icloud.
 <br>
 
 ## Do I loose all my images if I delete the app?

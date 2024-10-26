@@ -1,6 +1,6 @@
-# website for Receipts Co app
+# website for Receiptly app
 
-This repo contains the contents of the Receipts Co app.
+This repo contains the contents of the Receiptly app.
 
 
 

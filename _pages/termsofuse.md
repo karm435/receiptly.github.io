@@ -4,7 +4,7 @@ title: Terms of Use
 include_in_header: true
 ---
 
-Please read these Terms of Use, including those set forth in the Privacy Policy ("Terms", "Terms of Use") carefully before using the Receipts Co application (the "App") made available by Karma Academy pty ltd ("us", "we", or "our").
+Please read these Terms of Use, including those set forth in the Privacy Policy ("Terms", "Terms of Use") carefully before using the Receiptly application (the "App") made available by Karma Academy pty ltd ("us", "we", or "our").
 Your access to and use of the App is conditioned upon your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who wish to access or use the App.
 
 # Subscription Payments, Renewals, and Cancellation

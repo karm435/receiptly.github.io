@@ -5,11 +5,11 @@ include_in_header: false
 ---
 
 # Description
-Receipts Co will help you to category and search all of your receipts, invoices, sales slips, gift cards, and vouchers from different categorys in one place and keep record of your shopping history. 
+Receiptly will help you to category and search all of your receipts, invoices, sales slips, gift cards, and vouchers from different categorys in one place and keep record of your shopping history. 
 
 Specifically designed for in-category shopping and saving the hassle of finding receipts. Gives you the freedom from keeping physical copies of receipts.
 
-Receipts Co is not restricted to only receipts, you can save your vouchers, invoices or gift cards to keep track of their expiry date.
+Receiptly is not restricted to only receipts, you can save your vouchers, invoices or gift cards to keep track of their expiry date.
 
 Quickly saves photo of receipt or Invoice on the go while shopping. Customises the details regarding receipts for easy search and tracking. 
 

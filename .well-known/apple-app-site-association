@@ -1,0 +1,16 @@
+{
+    "applinks": {
+        "details": [
+             {
+               "appIDs": [ "TWUTEK8LCV.com.karmaacademy.com.ReceiptsCo" ],
+               "components": [
+                 {
+                    "/": "/buy/*",
+                    "comment": "Matches any URL with a path that starts with /buy/."
+                 }
+               ]
+             }
+         ]
+     }
+  }
+  

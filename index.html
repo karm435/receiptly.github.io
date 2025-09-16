@@ -1,3 +1,400 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receiptly - Store and Search Receipts</title>
+    <meta name="description" content="Store and Search Receipts with smart categorization, warranty tracking, and powerful search features.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <img src="appicon.png" alt="Receiptly" class="nav-logo">
+                <span class="nav-title">Receiptly</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#testimonials" class="nav-link">Reviews</a>
+                <a href="#faqs" class="nav-link">FAQs</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="privacy.html" class="nav-link">Privacy</a>
+                <a href="terms.html" class="nav-link">Terms</a>
+                <a href="https://apps.apple.com/app/id1532569828" class="download-btn">Download App</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-badge">
+                        <i class="fas fa-receipt"></i>
+                        <span>Smart Receipt Management</span>
+                    </div>
+                    <h1 class="hero-title">
+                        Store and Search
+                        <span class="gradient-text">Receipts</span>
+                        made simple
+                    </h1>
+                    <p class="hero-description">
+                        A no-fuss app designed for smart receipt organization with powerful search, warranty tracking, and seamless iCloud sync.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="https://apps.apple.com/app/id1532569828" class="btn-primary">
+                            <img src="assets/appstore.png" alt="Download on App Store" class="app-store-img">
+                        </a>
+                        <div class="qr-code">
+                            <div class="qr-placeholder">
+                                <i class="fas fa-qrcode"></i>
+                                <span>Scan to download</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="phone-mockup">
+                        <img src="images/iOS/Hero.jpg" alt="Receiptly App Screenshot" class="phone-screen">
+                        <div class="floating-cards">
+                            <div class="feature-card card-1">
+                                <i class="fas fa-camera"></i>
+                                <span>Quick Scan</span>
+                            </div>
+                            <div class="feature-card card-2">
+                                <i class="fas fa-search"></i>
+                                <span>Smart Search</span>
+                            </div>
+                            <div class="feature-card card-3">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Warranty Tracking</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+    </section>
+
+    <!-- Latest Features Section -->
+    <section class="latest-features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Latest Updates</h2>
+                <p class="section-subtitle">Discover the newest features that make receipt management even easier</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-highlight">
+                    <div class="feature-image">
+                        <img src="images/main-events/iPadAppImage.jpg" alt="iPad App" class="feature-img">
+                    </div>
+                    <div class="feature-content">
+                        <h3>iPad Experience</h3>
+                        <p>Take advantage of the larger screen with our optimized iPad interface for enhanced productivity.</p>
+                    </div>
+                </div>
+                <div class="feature-highlight">
+                    <div class="feature-image">
+                        <img src="images/main-events/Language announcement.jpg" alt="Multiple Languages" class="feature-img">
+                    </div>
+                    <div class="feature-content">
+                        <h3>Multiple Languages</h3>
+                        <p>Now available in multiple languages to serve users worldwide with localized experience.</p>
+                    </div>
+                </div>
+                <div class="feature-highlight">
+                    <div class="feature-video vertical">
+                        <video class="feature-video-player" controls poster="images/main-events/multiple images.jpg">
+                            <source src="images/iOS/batchProcessing.mov" type="video/mp4">
+                            <source src="images/iOS/batchProcessing.mov" type="video/quicktime">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="video-overlay">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                    </div>
+                    <div class="feature-content">
+                        <h3>Batch Processing</h3>
+                        <p>Process multiple receipts at once with our advanced batch processing capabilities. Watch how easy it is!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Features that matter</h2>
+                <p class="section-subtitle">Everything you need to manage your receipts efficiently</p>
+            </div>
+            <div class="features-showcase">
+                <div class="features-list">
+                    <div class="feature-item active" data-feature="widgets">
+                        <div class="feature-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h3>Beautiful Widgets</h3>
+                            <p>Keep an eye on spending summary with beautiful widgets and track product warranties.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item" data-feature="camera">
+                        <div class="feature-icon">
+                            <i class="fas fa-camera"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h3>Quick Create</h3>
+                            <p>Quickly create receipts using camera or choose from your photo library.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item" data-feature="organize">
+                        <div class="feature-icon">
+                            <i class="fas fa-wallet"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h3>Easy Organisation</h3>
+                            <p>Keep your receipts organized for easy search and retrieval.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item" data-feature="tracking">
+                        <div class="feature-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h3>Product Tracking</h3>
+                            <p>Keep track of product warranties and important dates.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item" data-feature="tagging">
+                        <div class="feature-icon">
+                            <i class="fas fa-tag"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h3>Smart Tagging</h3>
+                            <p>Tag receipts for easy categorization and quick search.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item" data-feature="sync">
+                        <div class="feature-icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h3>iCloud Sync</h3>
+                            <p>Seamless iCloud sync keeps your data safe and synchronized across devices.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="features-visual">
+                    <div class="feature-showcase-image">
+                        <img src="images/iOS/Widgets.jpg" alt="Widgets Feature" id="feature-image" class="showcase-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- iPad Features Section -->
+    <section class="ipad-features">
+        <div class="container">
+            <div class="ipad-showcase">
+                <div class="ipad-content">
+                    <h2>Double your productivity</h2>
+                    <p>Need more screen space to boost productivity? Get Receiptly on your iPad for a seamless receipt management experience.</p>
+                    <div class="ipad-feature-list">
+                        <div class="ipad-feature">
+                            <i class="fas fa-expand"></i>
+                            <span>Larger workspace</span>
+                        </div>
+                        <div class="ipad-feature">
+                            <i class="fas fa-columns"></i>
+                            <span>Split view support</span>
+                        </div>
+                        <div class="ipad-feature">
+                            <i class="fas fa-pencil-alt"></i>
+                            <span>Apple Pencil support</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="ipad-visual">
+                    <div class="ipad-video-container">
+                        <video class="ipad-video-player" controls poster="images/iPad/Screenshot home screen.jpg">
+                            <source src="images/iPad/output.mov" type="video/mp4">
+                            <source src="images/iPad/output.mov" type="video/quicktime">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="video-overlay">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                    </div>
+                    <img src="images/iPad/Screenshot home screen.jpg" alt="iPad Screenshot" class="ipad-image" style="margin-top: 20px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Reviews Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What our users say</h2>
+                <p class="section-subtitle">Real feedback from real users who love Receiptly</p>
+            </div>
+            <div class="reviews-carousel">
+                <div class="review-card">
+                    <img src="images/customerReviews/review1.png" alt="Customer Review 1" class="review-image">
+                </div>
+                <div class="review-card">
+                    <img src="images/customerReviews/review2.png" alt="Customer Review 2" class="review-image">
+                </div>
+                <div class="review-card">
+                    <img src="images/customerReviews/review3.png" alt="Customer Review 3" class="review-image">
+                </div>
+                <div class="review-card">
+                    <img src="images/customerReviews/review4.png" alt="Customer Review 4" class="review-image">
+                </div>
+                <div class="review-card">
+                    <img src="images/customerReviews/review5.png" alt="Customer Review 5" class="review-image">
+                </div>
+                <div class="review-card">
+                    <img src="images/customerReviews/review6.png" alt="Customer Review 6" class="review-image">
+                </div>
+                <div class="review-card">
+                    <img src="images/customerReviews/review7.png" alt="Customer Review 7" class="review-image">
+                </div>
+                <div class="review-card">
+                    <img src="images/customerReviews/review8.png" alt="Customer Review 8" class="review-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faqs" class="faqs">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Frequently asked questions</h2>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How do I search for a receipt?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You can use receipt, store, tag or product name to search for a receipt on the home screen.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Installed app on a new device and it is not showing my data?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sometimes iCloud does not trigger the refresh. Navigate to Settings → Apple ID Account → iCloud. After that just come back to the app and you should see the data.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do I lose all my images if I delete the app?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>No, when you create receipt using camera, the images are also saved in your photo library. Also, the iCloud sync is ON for the app and your data is saved on iCloud.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How do I delete a receipt?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You can navigate to All receipts page and can swipe to delete a receipt.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How do I create/delete a store?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>While creating a receipt, when you navigate to store page, you can create a new store or swipe to delete an existing store.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How do I contact for support?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You can reach us at support@receiptsco.app or post on Twitter @ReceiptsC and we will try to respond.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to organize your receipts?</h2>
+                <p>Start managing your receipts smartly with powerful search and organization features.</p>
+                <a href="https://apps.apple.com/app/id1532569828" class="btn-primary">
+                    <img src="assets/appstore.png" alt="Download on App Store" class="app-store-img">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="appicon.png" alt="Receiptly" class="footer-logo">
+                    <span class="footer-title">Receiptly</span>
+                </div>
+                <div class="footer-links">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Use</a>
+                    <a href="about.html">About</a>
+                    <a href="mailto:support@receiptsco.app">Contact Us</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Receiptly by Karma Academy. All rights reserved.</p>
+                <p>Made with ❤️ in Brisbane</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

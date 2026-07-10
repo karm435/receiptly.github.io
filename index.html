@@ -3,20 +3,156 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Receiptly - Store and Search Receipts</title>
-    <meta name="description" content="Store and Search Receipts with smart categorization, warranty tracking, and powerful search features.">
-    
+    <title>Receipt Scanner & Expense Tracker for iPhone | Receiptly</title>
+    <meta name="description" content="Scan, organize and search receipts on iPhone & iPad. Track expenses, reimbursements and warranties, export PDF/CSV/Excel and sync with iCloud. Free download.">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <link rel="canonical" href="https://receiptly.karmaacademy.com.au/">
+    <meta name="theme-color" content="#667eea">
+
+    <!-- Smart App Banner (iOS Safari) -->
+    <meta name="apple-itunes-app" content="app-id=1532569828">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Receiptly">
+    <meta property="og:title" content="Receiptly – Receipt Scanner & Expense Tracker for iPhone & iPad">
+    <meta property="og:description" content="Scan, organize and search receipts. Track expenses, reimbursements and warranties, export PDF/CSV/Excel and sync with iCloud. Free on the App Store.">
+    <meta property="og:url" content="https://receiptly.karmaacademy.com.au/">
+    <meta property="og:image" content="https://receiptly.karmaacademy.com.au/assets/headerimage.png">
+    <meta property="og:image:width" content="1500">
+    <meta property="og:image:height" content="1000">
+    <meta property="og:locale" content="en_AU">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@ReceiptsC">
+    <meta name="twitter:title" content="Receiptly – Receipt Scanner & Expense Tracker for iPhone & iPad">
+    <meta name="twitter:description" content="Scan, organize and search receipts. Track expenses, reimbursements and warranties, export PDF/CSV/Excel and sync with iCloud.">
+    <meta name="twitter:image" content="https://receiptly.karmaacademy.com.au/assets/headerimage.png">
+
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/favicon.png">
-    
+    <link rel="apple-touch-icon" href="appicon.png">
+
+    <!-- Performance: preconnect to third-party origins -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <!-- CSS -->
     <link rel="stylesheet" href="styles.css">
-    
+
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    
+
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MobileApplication",
+          "@id": "https://receiptly.karmaacademy.com.au/#app",
+          "name": "Smart Receipt Scan: Receiptly",
+          "alternateName": "Receiptly",
+          "description": "Smart receipt scanner and expense tracker for iPhone and iPad. Scan, organize and search receipts, track expenses, reimbursements and product warranties, export to PDF, CSV or Excel, and sync with iCloud.",
+          "operatingSystem": "iOS, iPadOS",
+          "applicationCategory": "FinanceApplication",
+          "url": "https://receiptly.karmaacademy.com.au/",
+          "installUrl": "https://apps.apple.com/app/id1532569828",
+          "image": "https://receiptly.karmaacademy.com.au/appicon.png",
+          "screenshot": "https://receiptly.karmaacademy.com.au/images/iOS/Hero.jpg",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.5",
+            "ratingCount": "62"
+          },
+          "author": { "@id": "https://receiptly.karmaacademy.com.au/#organization" }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://receiptly.karmaacademy.com.au/#organization",
+          "name": "Karma Academy",
+          "url": "https://receiptly.karmaacademy.com.au/",
+          "logo": "https://receiptly.karmaacademy.com.au/appicon.png",
+          "email": "support@receiptsco.app",
+          "sameAs": [
+            "https://twitter.com/ReceiptsC",
+            "https://www.codewithkarma.com"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://receiptly.karmaacademy.com.au/#website",
+          "url": "https://receiptly.karmaacademy.com.au/",
+          "name": "Receiptly",
+          "publisher": { "@id": "https://receiptly.karmaacademy.com.au/#organization" }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://receiptly.karmaacademy.com.au/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "How do I search for a receipt?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You can use receipt, store, tag or product name to search for a receipt on the home screen."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Installed app on a new device and it is not showing my data?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sometimes iCloud does not trigger the refresh. Navigate to Settings → Apple ID Account → iCloud. After that just come back to the app and you should see the data."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do I lose all my images if I delete the app?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No, when you create receipt using camera, the images are also saved in your photo library. Also, the iCloud sync is ON for the app and your data is saved on iCloud."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How do I delete a receipt?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You can navigate to All receipts page and can swipe to delete a receipt."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How do I create/delete a store?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "While creating a receipt, when you navigate to store page, you can create a new store or swipe to delete an existing store."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How do I contact for support?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You can reach us at support@receiptsco.app or post on Twitter @ReceiptsC and we will try to respond."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
 </head>
 <body>
     <!-- Navigation -->
@@ -50,19 +186,19 @@
                 <div class="hero-text">
                     <div class="hero-badge">
                         <i class="fas fa-receipt"></i>
-                        <span>Smart Receipt Management</span>
+                        <span>Receipt Scanner &amp; Expense Tracker</span>
                     </div>
                     <h1 class="hero-title">
-                        Store and Search
+                        Scan, Store and Search
                         <span class="gradient-text">Receipts</span>
                         made simple
                     </h1>
                     <p class="hero-description">
-                        A no-fuss app designed for smart receipt organization with powerful search, warranty tracking, and seamless iCloud sync.
+                        Receiptly is a no-fuss receipt scanner and organizer for iPhone and iPad — with powerful search, expense and warranty tracking, PDF/CSV/Excel export, and seamless iCloud sync.
                     </p>
                     <div class="hero-buttons">
                         <a href="https://apps.apple.com/app/id1532569828" class="btn-primary">
-                            <img src="assets/appstore.png" alt="Download on App Store" class="app-store-img">
+                            <img src="assets/appstore.png" alt="Download Receiptly on the App Store" class="app-store-img">
                         </a>
                         <div class="qr-code">
                             <div class="qr-placeholder">
@@ -74,7 +210,7 @@
                 </div>
                 <div class="hero-visual">
                     <div class="phone-mockup">
-                        <img src="images/iOS/Hero.jpg" alt="Receiptly App Screenshot" class="phone-screen">
+                        <img src="images/iOS/Hero.jpg" alt="Receiptly receipt scanner app home screen on iPhone" class="phone-screen" fetchpriority="high">
                         <div class="floating-cards">
                             <div class="feature-card card-1">
                                 <i class="fas fa-camera"></i>
@@ -110,7 +246,7 @@
             <div class="features-grid">
                 <div class="feature-highlight">
                     <div class="feature-image">
-                        <img src="images/main-events/iPadAppImage.jpg" alt="iPad App" class="feature-img">
+                        <img src="images/main-events/iPadAppImage.jpg" alt="Receiptly receipt organizer app on iPad" class="feature-img" loading="lazy" decoding="async">
                     </div>
                     <div class="feature-content">
                         <h3>iPad Experience</h3>
@@ -119,7 +255,7 @@
                 </div>
                 <div class="feature-highlight">
                     <div class="feature-image">
-                        <img src="images/main-events/Language announcement.jpg" alt="Multiple Languages" class="feature-img">
+                        <img src="images/main-events/Language announcement.jpg" alt="Receiptly app available in multiple languages" class="feature-img" loading="lazy" decoding="async">
                     </div>
                     <div class="feature-content">
                         <h3>Multiple Languages</h3>
@@ -128,7 +264,7 @@
                 </div>
                 <div class="feature-highlight">
                     <div class="feature-video vertical">
-                        <video class="feature-video-player" controls poster="images/main-events/multiple images.jpg">
+                        <video class="feature-video-player" controls preload="none" poster="images/main-events/multiple images.jpg">
                             <source src="images/iOS/batchProcessing.mov" type="video/mp4">
                             <source src="images/iOS/batchProcessing.mov" type="video/quicktime">
                             Your browser does not support the video tag.
@@ -150,8 +286,8 @@
     <section id="features" class="features">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Features that matter</h2>
-                <p class="section-subtitle">Everything you need to manage your receipts efficiently</p>
+                <h2 class="section-title">Receipt management features that matter</h2>
+                <p class="section-subtitle">Everything you need to scan, organize and track your receipts and expenses</p>
             </div>
             <div class="features-showcase">
                 <div class="features-list">
@@ -200,6 +336,24 @@
                             <p>Tag receipts for easy categorization and quick search.</p>
                         </div>
                     </div>
+                    <div class="feature-item" data-feature="expenses">
+                        <div class="feature-icon">
+                            <i class="fas fa-chart-pie"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h3>Expense Tracking</h3>
+                            <p>Track spending and reimbursements against your expenses, at home or on business travel.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item" data-feature="export">
+                        <div class="feature-icon">
+                            <i class="fas fa-file-export"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h3>PDF, CSV &amp; Excel Export</h3>
+                            <p>Export receipts and expense reports to PDF, CSV or Excel for claims and tax time.</p>
+                        </div>
+                    </div>
                     <div class="feature-item" data-feature="sync">
                         <div class="feature-icon">
                             <i class="fas fa-cloud"></i>
@@ -212,7 +366,7 @@
                 </div>
                 <div class="features-visual">
                     <div class="feature-showcase-image">
-                        <img src="images/iOS/Widgets.jpg" alt="Widgets Feature" id="feature-image" class="showcase-img">
+                        <img src="images/iOS/Widgets.jpg" alt="Receiptly iOS widgets showing spending summary and warranty tracking" id="feature-image" class="showcase-img" loading="lazy" decoding="async">
                     </div>
                 </div>
             </div>
@@ -243,7 +397,7 @@
                 </div>
                 <div class="ipad-visual">
                     <div class="ipad-video-container">
-                        <video class="ipad-video-player" controls poster="images/iPad/Screenshot home screen.jpg">
+                        <video class="ipad-video-player" controls preload="none" poster="images/iPad/Screenshot home screen.jpg">
                             <source src="images/iPad/output.mov" type="video/mp4">
                             <source src="images/iPad/output.mov" type="video/quicktime">
                             Your browser does not support the video tag.
@@ -252,7 +406,7 @@
                             <i class="fas fa-play-circle"></i>
                         </div>
                     </div>
-                    <img src="images/iPad/Screenshot home screen.jpg" alt="iPad Screenshot" class="ipad-image" style="margin-top: 20px;">
+                    <img src="images/iPad/Screenshot home screen.jpg" alt="Receiptly receipt management home screen on iPad" class="ipad-image" style="margin-top: 20px;" loading="lazy" decoding="async">
                 </div>
             </div>
         </div>
@@ -267,28 +421,28 @@
             </div>
             <div class="reviews-carousel">
                 <div class="review-card">
-                    <img src="images/customerReviews/review1.png" alt="Customer Review 1" class="review-image">
+                    <img src="images/customerReviews/review1.png" alt="App Store customer review 1 of the Receiptly receipt scanner app" class="review-image" loading="lazy" decoding="async">
                 </div>
                 <div class="review-card">
-                    <img src="images/customerReviews/review2.png" alt="Customer Review 2" class="review-image">
+                    <img src="images/customerReviews/review2.png" alt="App Store customer review 2 of the Receiptly receipt scanner app" class="review-image" loading="lazy" decoding="async">
                 </div>
                 <div class="review-card">
-                    <img src="images/customerReviews/review3.png" alt="Customer Review 3" class="review-image">
+                    <img src="images/customerReviews/review3.png" alt="App Store customer review 3 of the Receiptly receipt scanner app" class="review-image" loading="lazy" decoding="async">
                 </div>
                 <div class="review-card">
-                    <img src="images/customerReviews/review4.png" alt="Customer Review 4" class="review-image">
+                    <img src="images/customerReviews/review4.png" alt="App Store customer review 4 of the Receiptly receipt scanner app" class="review-image" loading="lazy" decoding="async">
                 </div>
                 <div class="review-card">
-                    <img src="images/customerReviews/review5.png" alt="Customer Review 5" class="review-image">
+                    <img src="images/customerReviews/review5.png" alt="App Store customer review 5 of the Receiptly receipt scanner app" class="review-image" loading="lazy" decoding="async">
                 </div>
                 <div class="review-card">
-                    <img src="images/customerReviews/review6.png" alt="Customer Review 6" class="review-image">
+                    <img src="images/customerReviews/review6.png" alt="App Store customer review 6 of the Receiptly receipt scanner app" class="review-image" loading="lazy" decoding="async">
                 </div>
                 <div class="review-card">
-                    <img src="images/customerReviews/review7.png" alt="Customer Review 7" class="review-image">
+                    <img src="images/customerReviews/review7.png" alt="App Store customer review 7 of the Receiptly receipt scanner app" class="review-image" loading="lazy" decoding="async">
                 </div>
                 <div class="review-card">
-                    <img src="images/customerReviews/review8.png" alt="Customer Review 8" class="review-image">
+                    <img src="images/customerReviews/review8.png" alt="App Store customer review 8 of the Receiptly receipt scanner app" class="review-image" loading="lazy" decoding="async">
                 </div>
             </div>
         </div>
@@ -364,9 +518,9 @@
         <div class="container">
             <div class="cta-content">
                 <h2>Ready to organize your receipts?</h2>
-                <p>Start managing your receipts smartly with powerful search and organization features.</p>
+                <p>Download Receiptly free on the App Store and start scanning, searching and tracking your receipts, expenses and warranties today.</p>
                 <a href="https://apps.apple.com/app/id1532569828" class="btn-primary">
-                    <img src="assets/appstore.png" alt="Download on App Store" class="app-store-img">
+                    <img src="assets/appstore.png" alt="Download Receiptly on the App Store" class="app-store-img" loading="lazy" decoding="async">
                 </a>
             </div>
         </div>
@@ -377,7 +531,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-brand">
-                    <img src="appicon.png" alt="Receiptly" class="footer-logo">
+                    <img src="appicon.png" alt="Receiptly app icon" class="footer-logo" loading="lazy" decoding="async">
                     <span class="footer-title">Receiptly</span>
                 </div>
                 <div class="footer-links">

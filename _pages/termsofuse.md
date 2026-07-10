@@ -2,6 +2,7 @@
 layout: page
 title: Terms of Use
 include_in_header: true
+canonical_url: /terms.html
 ---
 
 Please read these Terms of Use, including those set forth in the Privacy Policy ("Terms", "Terms of Use") carefully before using the Receiptly application (the "App") made available by Karma Academy pty ltd ("us", "we", or "our").

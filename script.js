@@ -50,7 +50,9 @@ function initFeatureShowcase() {
         'organize': 'images/iOS/Categories.jpg',
         'tracking': 'images/iOS/Warranties Tracking.jpg',
         'tagging': 'images/iOS/Tags.jpg',
-        'sync': 'images/iOS/Export.jpg'
+        'expenses': 'images/iOS/Expenses.jpg',
+        'export': 'images/iOS/Export.jpg',
+        'sync': 'images/iOS/Family Expenses.jpg'
     };
     
     featureItems.forEach(item => {

@@ -2,6 +2,7 @@
 layout: page
 title: Privacy Policy
 include_in_header: true
+canonical_url: /privacy.html
 ---
 
 **Last updated**  

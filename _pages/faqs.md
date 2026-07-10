@@ -2,6 +2,7 @@
 layout: page
 title: FAQs
 include_in_header: true
+canonical_url: /
 ---
 
 **Last updated**  

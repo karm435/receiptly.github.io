@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy – Receiptly</title>
-    <meta name="description" content="Receiptly Privacy Policy – how the receipt scanner app stores your data on your device and iCloud, and how we protect your privacy.">
+    <meta name="description" content="Receiptly Privacy Policy – on-device receipt storage, iCloud sync, optional Smart Scans, and Kickstart Exchange.">
     <link rel="canonical" href="https://receiptly.karmaacademy.com.au/privacy.html">
     <meta name="theme-color" content="#667eea">
     <meta name="apple-itunes-app" content="app-id=1532569828">
@@ -13,7 +13,7 @@
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Receiptly">
     <meta property="og:title" content="Privacy Policy – Receiptly">
-    <meta property="og:description" content="Receiptly Privacy Policy – how the receipt scanner app stores your data on your device and iCloud, and how we protect your privacy.">
+    <meta property="og:description" content="Receiptly Privacy Policy – on-device receipt storage, iCloud sync, optional Smart Scans, and Kickstart Exchange.">
     <meta property="og:url" content="https://receiptly.karmaacademy.com.au/privacy.html">
     <meta property="og:image" content="https://receiptly.karmaacademy.com.au/assets/headerimage.png">
 
@@ -147,48 +147,56 @@
     <!-- Page Content -->
     <section class="page-content">
         <div class="content-wrapper">
-            <p class="updated-date"><strong>Last updated:</strong> October 19, 2020</p>
+            <p class="updated-date"><strong>Last updated:</strong> 20 August 2026</p>
             
             <div class="privacy-highlight">
                 <h3><i class="fas fa-shield-alt"></i> Privacy First</h3>
-                <p>We do not collect any personal information. All your data stays on your device and in your iCloud (if enabled).</p>
+                <p>Receipt data stays on your device and in your iCloud if you enable sync. If you turn on Smart Scans, a copy of a receipt image can be sent to Google AI servers for advanced scanning. Kickstart Exchange is described below.</p>
             </div>
 
             <div class="content-section">
                 <h2>1.0 Information We Collect</h2>
-                <p>We do not collect any information related to you. Receiptly is designed with privacy at its core, ensuring that all your receipt data remains completely private and under your control.</p>
+                <p>Receipt photos, OCR text, merchants, amounts, categories, tags, and expenses stay on your device. Receiptly does not create an account for you and does not sell your receipt content. Scanning and storage happen on the device first. If you turn on Smart Scans, a copy of a receipt image can be sent to Google AI servers for advanced scanning.</p>
+                <p>A few optional features send limited, app-level information to the services named below. Receipt content is not used to build an advertising profile of you.</p>
             </div>
 
             <div class="content-section">
                 <h3>1.2 Information you provide to us</h3>
-                <p>All the images and data you provide stays on your device. When you take photos of receipts or add information, this data is stored locally on your device and optionally synchronized through your personal iCloud account if you choose to enable iCloud sync.</p>
+                <p>Photos you take and details you type are stored locally. If iCloud is enabled for the app, that data syncs through your personal Apple Account. Delete the app to remove the local copy. Manage iCloud copies in iOS Settings.</p>
+                <p>Support email you send is used only to reply.</p>
             </div>
 
             <div class="content-section">
-                <h2>2.0 What Personal Information we collect about you and how we collect it</h2>
-                <p>We do not collect any personal information. Receiptly operates entirely on your device, processing receipt images and data locally without sending any information to external servers.</p>
+                <h2>2.0 Purchases</h2>
+                <p>Purchases go through Apple. Receiptly uses RevenueCat to check subscription status so paid features become available. RevenueCat does not receive your receipt images or OCR text.</p>
             </div>
 
             <div class="content-section">
-                <h2>3.0 How we keep and secure the Personal Information we collect</h2>
-                <p>All the data provided by you stays on your device and, if you choose to enable it, in your personal iCloud storage. If you wish to delete all the data, simply delete the app from your device. Your iCloud data can be managed through your iCloud settings.</p>
-                
-                <p>The app uses Apple's built-in security features to protect your data, including device-level encryption and secure iCloud synchronization when enabled.</p>
+                <h2>3.0 How we keep data secure</h2>
+                <p>Data on the device is protected by the device's own encryption. iCloud data is managed through your Apple Account. The app uses Apple's built-in security features, including secure iCloud synchronization when you enable it.</p>
             </div>
 
             <div class="content-section">
-                <h2>4.0 Data Processing</h2>
-                <p>When you use the camera feature to capture receipts, the optical character recognition (OCR) processing happens entirely on your device. No images or extracted text are sent to external services or our servers.</p>
+                <h2>4.0 Receipt scanning</h2>
+                <p>Optical character recognition starts on your device.</p>
+                <p>Smart Scans are a Premium option and stay off until you turn them on in App Setup. Scanning starts on your device. If a receipt needs extra help, a reduced copy of the image (JPEG, maximum 2048-pixel long edge) can be sent to Google AI servers for advanced scanning. That path uses Firebase AI Logic and Vertex AI when the device is online and Remote Config allows it. The original image stays local. Turn Smart Scans off to keep scanning on-device.</p>
+                <p>Firebase Analytics records basic product usage events. Firebase Crashlytics records crash diagnostics. App Check protects those requests. Analytics and Crashlytics must not receive receipt images, OCR text, merchant names, amounts, filenames, receipt identifiers, search queries, expense titles, addresses, phone numbers, emails, or generated model output.</p>
             </div>
 
             <div class="content-section">
-                <h2>5.0 Third-Party Services</h2>
-                <p>Receiptly does not integrate with any third-party analytics, advertising, or data collection services. The app operates independently without sharing data with external parties.</p>
+                <h2>5.0 Third-party services</h2>
+                <h3>Kickstart Exchange</h3>
+                <p>Free users may see Kickstart Exchange banners that recommend other independent apps. Premium subscribers do not see these banners.</p>
+                <p>Kickstart Exchange matches apps, not people. It does not track users or devices, and it does not build advertising profiles. The SDK may send app-level details such as the bundle identifier, platform, app and build versions, SDK version, and App Store country so it can show apps that can actually be installed. In shipping builds it may also send an Apple-signed App Transaction to confirm a real install. Kickstart Exchange processes that signed data only long enough to verify the app, then discards it. Impression and click counts are recorded per app, not per person. Ad artwork is delivered by Kickstart Exchange through Cloudflare.</p>
+                <p>Kickstart Exchange does not receive your receipts. Receiptly does not use Kickstart Exchange to identify you.</p>
+                <p>Read the <a href="https://exchange.kickstart.tools/privacy" style="color: #667eea;">Kickstart Exchange privacy notice</a>.</p>
+                <h3>Other services</h3>
+                <p>Apple iCloud / CloudKit is used for optional sync between your devices. RevenueCat handles in-app purchases. Firebase provides Analytics, Crashlytics, App Check, and the optional Smart Scans path described above.</p>
             </div>
 
             <div class="content-section">
-                <h2>6.0 Contact Information</h2>
-                <p>If you have any questions about this Privacy Policy, please contact us at <a href="mailto:support@receiptsco.app" style="color: #667eea;">support@receiptsco.app</a>.</p>
+                <h2>6.0 Contact</h2>
+                <p>If you have questions about this Privacy Policy, email <a href="mailto:support@receiptsco.app" style="color: #667eea;">support@receiptsco.app</a>.</p>
             </div>
         </div>
     </section>

@@ -60,4 +60,4 @@ Read the [Kickstart Exchange privacy notice](https://exchange.kickstart.tools/pr
 
 ## 6.0 Contact
 
-If you have questions about this Privacy Policy, email [support@receiptsco.app](mailto:support@receiptsco.app).
+If you have questions about this Privacy Policy, use the protected support link on the Receiptly website or the in-app Contact Support option.

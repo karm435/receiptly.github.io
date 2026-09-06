@@ -2,58 +2,76 @@
 layout: page
 title: FAQs
 include_in_header: true
-canonical_url: /
 ---
 
 **Last updated**  
-March 8 2023
+7 September 2026
 
 # Frequently asked questions
-<br>
+
+## Is Receiptly on iPhone, iPad, and Android?
+
+Yes. Receiptly is on the [App Store](https://apps.apple.com/app/id1532569828) for iPhone and iPad, and on [Google Play](https://play.google.com/store/apps/details?id=com.karmafyapps.receiptly) for Android.
+
+## Do iPhone and Android libraries sync?
+
+No. The Android library does not sync with iPhone or iCloud. Each install keeps receipts on that device. On iPhone and iPad, optional iCloud sync can share a library across your Apple devices only.
+
+## How does Receiptly handle my receipt data?
+
+Receipt data is stored on your device. On iOS it can also sync through your iCloud account if you enable that. Smart Scan is optional and may send a reduced receipt image to Google AI services for advanced scanning when you turn it on. Read the [Privacy Policy](/privacypolicy/).
+
+## What does Receiptly scan automatically?
+
+On-device scanning extracts key receipt details so you can review and save the purchase without entering everything manually. Smart Scan is an optional extra pass for tricky receipts.
+
+## Can I scan multiple receipts at once?
+
+Yes. Select multiple images or capture several receipt photos, then create separate receipt entries in one batch.
+
+## Can Receiptly track personal and business expenses?
+
+Yes. Organize personal or business spending with categories and tags, and track expenses, income, credits, and reimbursements.
+
+## Which export formats are supported?
+
+Receiptly can export receipt and expense information as PDF, CSV, or Excel files. Export is a Receiptly Pro feature on iOS and a Receiptly Plus feature on Android.
+
+## Can Receiptly remind me when a product warranty expires?
+
+Yes. Add products to a receipt, record their warranty dates, and use reminders to stay ahead of upcoming expiries.
+
+## Does Receiptly support travel receipts in different currencies?
+
+Yes. Keep a home currency, choose another currency for a receipt, and store its exchange rate for later reporting and reimbursement.
+
+## Is Receiptly free?
+
+Receiptly is free to download. Optional Receiptly Pro purchases on iOS, and Receiptly Plus purchases on Android, unlock paid features such as Smart Scan, exports, and full reports. On Android, adding receipts, reports, and export also require Plus. Android Plus may include a 3-day trial.
+
+## How do I cancel a subscription?
+
+- **iPhone and iPad:** App Store account settings.
+- **Android:** Google Play subscriptions for the Receiptly app.
+
+Cancel at least 24 hours before the period ends to avoid renewal.
 
 ## How do I search for a receipt?
-You can use receipt, category, tag or product name to search for a receipt on the home screen.
 
-## Installed app on a new device and it is not showing my data synced with iCloud?
-Sometime app does not trigger the refresh. Navigate to Settings -> Apple Id Account -> iCloud. After that just come back to the app and you should see the data.
-<br>
+Use the merchant, category, tag, product, or other details on the home screen or Find.
 
-## How do I stop iCloud sync?
-You can navigate Settings and iCloud settings and stop the Receiptly app from syncing with icloud.
-<br>
+## Installed the iOS app on a new Apple device and my receipts are missing?
 
-## Do I loose all my images if I delete the app?
-It depends on couple of things, when you create receipt using camera and give permission to the photo library, the images are also saved in your photo library and this way you always have the images with you even after deleting the app. Also, the iCloud sync is ON for the app and if you have not turned it off then your data is saved on iCloud always.
-<br>
+iCloud sometimes needs a refresh. On the iPhone or iPad, open Settings, then your Apple Account, then iCloud. Return to Receiptly. This does not apply to Android, and it will not copy an iPhone library to Android.
 
-## How do I delete a receipt?
-You can navigate to category details and receipts page and can swipe to delete a receipt.
-<br>
+## How do I stop iCloud sync on iOS?
 
-## How do I create/delete a category?
-- While creating a receipt, when you navigate to category page, you can create a new category or swipe to delete an existing category. 
-- Navigate to More tab and then Cagetories and manage your categeries. 
-<br>
+In iOS Settings, open your Apple Account, then iCloud, and turn off Receiptly. Android does not use iCloud.
 
-## How do I create/delete a tag?
-While creating a receipt, when you navigate to tags page, you can create a new tag or swipe to delete an existing tag.
-<br>
+## Do I lose receipt images if I delete the app?
 
-## Can I select multiple tags while creating the receipt?
-Yes, you can select multiple tags
-<br>
+On iOS, images you saved to Photos can remain in your library, and iCloud copies remain if sync was on. On Android, uninstalling removes the on-device library unless you exported the files yourself.
 
-## How do I contact for support?
-You can use in app feature to contact the support.
+## How do I contact support?
 
-## How do I create an expense
-- Navigate to Expenses tab and you can tab on plus button and create your expense.
-
-## How do I edit an expense
-- Tap on the expense and you can edit your expense
-
-## How do I delete an expesen
-- On the Expenses list you can swipe to the left to delete
-- You can tap on the expense item in the list and click on the trash icon on the top right to delete the expense.
-
-
+Use the in-app Contact Support option, or email [karm.singh@outlook.com](mailto:karm.singh@outlook.com).

@@ -5,7 +5,7 @@ include_in_header: true
 ---
 
 **Last updated**  
-September 18 2022
+7 September 2026
 
 # Press Kit
 <br>
@@ -15,9 +15,9 @@ Help Receiptly grow! I’m Karmjit, the developer of this app. I’m the only de
 ## Description
 Receiptly is an app to help scan, search receipts and expenses smartly. Search your entire catalog of receipts in a split second. Search in receipts using category name, product name, title etc. Create lists of categories and tags instantly to organise your receipts. 
 
-Receiptly was designed with privacy in mind, so all processes happen offline and nothing ever leaves your phone. There are no servers, no data collection, no analytics, and no internet connection is required except if you want to sync your receipts across multiple devices.
+Receiptly was designed with privacy in mind. Scanning and storage start on your device, and there is no Receiptly account. On iPhone and iPad, optional iCloud sync can copy your library between Apple devices. On Android, receipts stay on that device and do not sync with iPhone. Optional Smart Scan can send a reduced receipt image to Google AI for harder receipts. Firebase records basic product analytics and crash diagnostics, not your receipt content.
 
-Receiptly is a free app to download and have no ads. There are in app purchases if you want to do advance activities like export your receipts to pdf etc. 
+Receiptly is free to download and has no ads. Optional Receiptly Pro (iOS) and Receiptly Plus (Android) purchases unlock extras such as Smart Scan, exports, and full reports. 
 
 
 ## Screenshots & Assets
@@ -51,7 +51,7 @@ Receiptly is a free app to download and have no ads. There are in app purchases 
 - Search bar: Use to search for receipts using receipts name, category name or product name. 
 
 ## In app Purchase
-There are in app purchases to give you extra features. All the basic features are totally free and there is no limit on those features. Features unlocked with pro subscription are
+There are in-app purchases for extra features. Receiptly Pro on iOS and Receiptly Plus on Android can unlock:
 - App Icon: 
   - You can choose from different set of app icons and choose the one you like. 
 - Export:
@@ -61,14 +61,17 @@ There are in app purchases to give you extra features. All the basic features ar
 <br>
 
 ## Helpful links
-### Receiptly App category URL
+### Receiptly on the App Store
 https://apps.apple.com/app/id1532569828
 
-### Receiptly App category Short URL
+### Receiptly on the App Store (short URL)
 https://apple.co/3xxJMoB
 
-### Find website
-https://receiptsco.app
+### Receiptly on Google Play
+https://play.google.com/store/apps/details?id=com.karmafyapps.receiptly
+
+### Website
+https://receipttrackerapp.com/
 
 ### Developer Twitter
 https://twitter.com/CodeWithKarma
@@ -83,9 +86,8 @@ https://twitter.com/ReceiptsC
 ![image](../images/review4.png)
 
 ## About the developer
-I’m Karmjit Singh, an iOS developer living in Brisbane Australia. Besides coding, I like to play badminton and gardening.
+I’m Karmjit Singh, a developer living in Brisbane, Australia. Besides coding, I like to play badminton and gardening.
 
-Receiptly is my first and most fully-featured app. A couple of years ago, I was at the category and I needed to find my receipt for that category and I could not. I looked for some apps in the Appcategory to manage receipts but they were not fulfilling all my needs like group by category, tags, and search and warranties. 
-I decided to build my own app.It has been an amazing journey and I am still working on great features for this app. but I think it’s gotten to be pretty useful for stuff beyond that. But anyway, I’m very committed to user privacy. No one likes apps that sell your data. My app don’t collect data, and have pro features for pro users who want to do more that just saving and searching of receipts.
+Receiptly is my first and most fully-featured app, now on iPhone, iPad, and Android. I’m committed to user privacy: there is no Receiptly account, receipt content stays on the device unless you turn on optional Smart Scan, and we do not sell your data. Receiptly Pro on iOS and Receiptly Plus on Android unlock extras for people who want more than saving and searching receipts.
 
 You can contact me anytime on [Twitter](https://twitter.com/CodeWithKarma) or through the protected support link on the Receiptly website.

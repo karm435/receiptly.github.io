@@ -369,9 +369,22 @@ article[id] {
 
 .hero-actions {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    gap: 26px;
+    gap: 22px;
     margin-bottom: 34px;
+}
+
+.store-badges {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+}
+
+.final-cta-content .store-badges {
+    justify-content: center;
+    margin-bottom: 4px;
 }
 
 .app-store-link {
@@ -1853,6 +1866,10 @@ article[id] {
     .hero-actions {
         flex-direction: column;
         gap: 18px;
+    }
+
+    .store-badges {
+        justify-content: center;
     }
 
     .hero-trust {

@@ -56,7 +56,7 @@ In supported versions on iPhone and iPad, you can choose to connect Gmail and im
 
 The purchase list and extracted details may be incomplete or inaccurate. Review the merchant, amount, currency, purchase date, and other details before saving or relying on an imported receipt. An email may describe an order, invoice, or payment update rather than a completed purchase.
 
-Source email content and attachments are processed temporarily on your device. The receipt fields you choose to save become ordinary Receiptly records and can sync with iCloud when enabled. Disconnecting Gmail keeps those saved records and does not change or delete the original emails. You can delete imported receipts within Receiptly. See [Gmail integration in the Privacy Policy](/privacypolicy/#gmail) for details about access, processing, storage, and deletion.
+Source email content and attachments are processed temporarily on your device. The receipt fields you choose to save and a one-way marker used to recognize previously imported emails become ordinary Receiptly records and can sync with iCloud when enabled. Disconnecting Gmail keeps those saved records and does not change or delete the original emails. You can delete imported receipts within Receiptly. See [Gmail integration in the Privacy Policy](/privacypolicy/#gmail) for details about access, processing, storage, and deletion.
 
 ## Disclaimer {#disclaimer}
 
@@ -66,7 +66,7 @@ Karma Academy pty ltd, its subsidiaries, affiliates, and its licensors do not wa
 
 ## Data security and privacy {#privacy}
 
-Receipt information and images you create remain on your device. On iPhone and iPad they can optionally sync through your personal iCloud account if you enable that feature. On Android they stay on that device and do not sync with iPhone or iCloud. Receiptly does not provide a hosted account for your receipt library. Optional Smart Scan and Gmail integration have the data flows described in the [Privacy Policy](/privacypolicy/). Gmail source emails and original attachments are not automatically kept with imported receipts; the fields you save follow the same storage and iCloud settings as other receipts.
+Receipt information and images you create remain on your device. On iPhone and iPad they can optionally sync through your personal iCloud account if you enable that feature. On Android they stay on that device and do not sync with iPhone or iCloud. Receiptly does not provide a hosted account for your receipt library. Optional Smart Scan and Gmail integration have the data flows described in the [Privacy Policy](/privacypolicy/). Gmail source emails and original attachments are not automatically kept with imported receipts; the fields and import marker you save follow the same storage and iCloud settings as other receipts.
 
 ## Changes {#changes}
 

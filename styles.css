@@ -2015,3 +2015,102 @@ article[id] {
         transform: none;
     }
 }
+
+
+/* Platform details share the existing Receiptly colors and type. */
+.platforms-section {
+    padding: 72px 0;
+    background: var(--aqua-soft);
+}
+
+.platforms-heading {
+    max-width: 760px;
+    margin-bottom: 32px;
+}
+
+.platforms-heading h2 {
+    font-size: clamp(2rem, 4vw, 3.5rem);
+    letter-spacing: -0.045em;
+    line-height: 1.12;
+}
+
+.platforms-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+}
+
+.platform-panel {
+    display: flex;
+    flex-direction: column;
+    padding: clamp(24px, 3vw, 40px);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-md);
+    background: var(--white);
+}
+
+.platform-panel h3 {
+    font-size: 1.75rem;
+    letter-spacing: -0.035em;
+}
+
+.platform-panel p,
+.platform-panel li,
+.platforms-heading > p:last-child,
+.platforms-note {
+    color: var(--ink-soft);
+}
+
+.platform-panel ul {
+    padding-left: 22px;
+    margin-bottom: 28px;
+}
+
+.platform-panel li + li {
+    margin-top: 12px;
+}
+
+.platform-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 24px;
+    margin-top: auto;
+}
+
+.platform-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 44px;
+    font-weight: 650;
+}
+
+.platforms-section a {
+    color: var(--teal-800);
+    text-underline-offset: 4px;
+}
+
+.platforms-note {
+    max-width: 900px;
+    margin: 24px 0 0;
+}
+
+@media (max-width: 820px) {
+    .platforms-grid {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .platforms-section {
+        padding: 48px 0;
+    }
+}
+
+@media (min-width: 821px) and (max-width: 1050px) {
+    .site-header .nav-menu {
+        gap: 10px;
+    }
+
+    .site-header .nav-shell {
+        gap: 16px;
+    }
+}

@@ -1,3 +1,13 @@
+// Preserve privacy links used by earlier versions of the site and OAuth branding.
+const openLegacyPrivacyPolicy = () => {
+    const isHomePage = window.location.pathname === '/' || window.location.pathname === '/index.html';
+    if (isHomePage && window.location.hash === '#privacy') {
+        window.location.replace('/privacypolicy/');
+    }
+};
+openLegacyPrivacyPolicy();
+window.addEventListener('hashchange', openLegacyPrivacyPolicy);
+
 document.documentElement.classList.add('js');
 
 document.addEventListener('DOMContentLoaded', () => {

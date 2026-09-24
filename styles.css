@@ -2124,3 +2124,15 @@ article[id] {
     margin-top: 28px;
     font-size: 0.85rem;
 }
+
+/* The hero eyebrow sits inside the h1 so the heading carries the search phrase. */
+.hero h1 .eyebrow {
+    display: flex;
+    width: fit-content;
+}
+
+@media (max-width: 820px) {
+    .hero h1 .eyebrow {
+        margin-inline: auto;
+    }
+}

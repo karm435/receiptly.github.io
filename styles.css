@@ -2114,3 +2114,13 @@ article[id] {
         gap: 16px;
     }
 }
+
+/* Gmail import reuses the feature story layout on a light background. */
+.feature-story-gmail {
+    background: var(--white);
+}
+
+.story-copy > p.feature-note {
+    margin-top: 28px;
+    font-size: 0.85rem;
+}

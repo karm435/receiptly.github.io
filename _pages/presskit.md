@@ -31,6 +31,9 @@ Receiptly is free to download and has no ads. Optional Receiptly Pro (iOS) and R
 - Smart Scan: 
   - Smart scan, when enabled will try to get the data from the receipts to make the create receipt fast. 
   - Smart scan try to extract category name, amount spent and date spent from the receipt to make to help you quickly save them. 
+- Gmail receipt import (iPhone and iPad):
+  - Connect Gmail in Integrations, browse recent purchase emails, and choose which ones to save as receipts.
+  - Email text and attachments are processed on the device. Receiptly has read-only access and never changes your emails.
 - Easy Organise: 
   - The app helps you keep your receipts in an organized way for easy search. 
     - Just create different categories to manage them. 
@@ -54,6 +57,7 @@ Receiptly is free to download and has no ads. Optional Receiptly Pro (iOS) and R
 There are in-app purchases for extra features. Receiptly Pro on iOS and Receiptly Plus on Android can unlock:
 - App Icon: 
   - You can choose from different set of app icons and choose the one you like. 
+- Gmail receipt import on iPhone and iPad
 - Export:
   - Export the receipts to pdf
   - Filters are availble to choose a simple export or detailed export with images. 

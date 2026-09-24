@@ -1,0 +1,11 @@
+<section class="faq-section" id="faqs">
+    <div class="shell faq-layout">
+        <div class="faq-heading reveal"><p class="eyebrow eyebrow-dark">Frequently asked questions</p><h2>A little more detail, before you download.</h2><p>Need help with something else? <a href="/faqs/">Read all FAQs</a> or <a href="#" data-protected-email aria-label="Email Receiptly support">email support</a>.</p></div>
+        <div class="faq-list reveal" data-delay="1">
+            {%- assign home_faqs = site.data.faqs | where: "home", true %}
+            {%- for faq in home_faqs %}
+            <details><summary>{{ faq.question }}</summary>{{ faq.answer | markdownify }}</details>
+            {%- endfor %}
+        </div>
+    </div>
+</section>

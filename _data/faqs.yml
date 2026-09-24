@@ -72,7 +72,8 @@
     On iPhone and iPad, open More, then Integrations, then Gmail, and sign in with Google. Browse recent purchase
     emails, choose the ones you want, and review the details before saving each one as a receipt. Email text and
     attachments are processed temporarily on your device. The receipt fields you save and a marker for previously
-    imported emails enter your library and can sync with iCloud. Gmail import is not available on Android.
+    imported emails enter your library and can sync with iCloud. Gmail import is included with Receiptly Pro and is not
+    available on Android.
     [Read about Gmail privacy](/privacypolicy/#gmail).
 
 - id: gmail-emails

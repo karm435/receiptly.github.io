@@ -1,0 +1,66 @@
+---
+layout: base
+css: [legal.css, feature.css]
+body_class: legal-page feature-page
+---
+<section class="legal-hero feature-hero" aria-labelledby="feature-title">
+    <div class="shell feature-hero-grid">
+        <div>
+            <a class="legal-back" href="{{ '/' | relative_url }}"><span aria-hidden="true">←</span> Back to Receiptly</a>
+            <p class="eyebrow">{{ page.eyebrow | escape }}</p>
+            <h1 id="feature-title">{{ page.title | escape }}</h1>
+            <p class="legal-description">{{ page.description | escape }}</p>
+            <div class="store-badges">
+                <a class="app-store-link" href="https://apps.apple.com/app/id1532569828" aria-label="Download Receiptly on the App Store"><img src="{{ '/assets/appstore.png' | relative_url }}" width="180" height="60" alt="Download on the App Store"></a>
+                {%- if page.android %}
+                <a class="app-store-link" href="https://play.google.com/store/apps/details?id=com.karmafyapps.receiptly" aria-label="Get Receiptly on Google Play"><img src="{{ '/assets/playstore.png' | relative_url }}" width="180" height="60" alt="Get it on Google Play"></a>
+                {%- endif %}
+            </div>
+        </div>
+        <div class="feature-shot">
+            <picture>
+                <source srcset="{{ page.image | append: '.webp' | relative_url }}" type="image/webp">
+                <img src="{{ page.image | append: '.jpg' | relative_url }}" width="960" height="{{ page.image_height }}" alt="{{ page.image_alt | escape }}" fetchpriority="high">
+            </picture>
+        </div>
+    </div>
+</section>
+
+<section class="shell feature-section" aria-labelledby="steps-title">
+    <h2 id="steps-title">How it works</h2>
+    <ol class="feature-steps">
+        {%- for step in page.steps %}
+        <li><h3>{{ step.title }}</h3><p>{{ step.text }}</p></li>
+        {%- endfor %}
+    </ol>
+</section>
+
+<div class="shell feature-section">
+    <article class="legal-document">
+        {{ content }}
+    </article>
+</div>
+
+{%- if page.faqs %}
+<section class="shell feature-section" aria-labelledby="questions-title">
+    <h2 id="questions-title">Common questions</h2>
+    <div class="faq-list">
+        {%- for id in page.faqs %}
+        {%- assign faq = site.data.faqs | where: "id", id | first %}
+        <details><summary>{{ faq.question }}</summary>{{ faq.answer | markdownify }}</details>
+        {%- endfor %}
+    </div>
+    <p class="feature-more"><a href="{{ '/faqs/' | relative_url }}">Read all FAQs</a></p>
+</section>
+{%- endif %}
+
+{%- assign features = site.data.navigation.footer | where: "title", "Features" | first %}
+<nav class="shell feature-section" aria-labelledby="related-title">
+    <h2 id="related-title">More Receiptly features</h2>
+    <ul class="feature-related">
+        {%- for link in features.links %}{% unless link.url == page.url %}
+        <li><a href="{{ link.url | relative_url }}">{{ link.title }}</a><p>{{ link.summary }}</p></li>
+        {%- endunless %}{% endfor %}
+        <li><a href="{{ '/#features' | relative_url }}">All features</a><p>Scanning, reports, organization, and Apple Shortcuts.</p></li>
+    </ul>
+</nav>

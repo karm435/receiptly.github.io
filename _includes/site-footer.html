@@ -1,0 +1,19 @@
+<footer class="site-footer">
+    <div class="shell footer-grid">
+        <div class="footer-brand-block">
+            <a class="brand brand-footer" href="{{ '/' | relative_url }}"><img src="{{ '/images/2026/receiptly-app-icon.png' | relative_url }}" width="40" height="40" alt="" class="brand-icon" loading="lazy"><span>Receiptly</span></a>
+            <p>A thoughtful receipt scanner and expense tracker for iPhone, iPad, and Android.</p>
+        </div>
+        <nav class="footer-links" aria-label="Footer navigation">
+            {%- for group in site.data.navigation.footer %}
+            <div><strong>{{ group.title }}</strong>
+                {%- for link in group.links %}
+                {%- if link.email %}<a href="#" data-protected-email>{{ link.title }}</a>
+                {%- else %}<a href="{{ link.url | relative_url }}">{{ link.title }}</a>{% endif %}
+                {%- endfor %}
+            </div>
+            {%- endfor %}
+        </nav>
+    </div>
+    <div class="shell footer-bottom"><span>© {{ site.time | date: '%Y' }} Receiptly by Karma Academy.</span><span>Made thoughtfully in Brisbane.</span></div>
+</footer>

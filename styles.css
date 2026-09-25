@@ -2136,3 +2136,20 @@ article[id] {
         margin-inline: auto;
     }
 }
+
+/* Footer holds four link groups, including the feature pages. */
+@media (min-width: 821px) {
+    .footer-grid {
+        grid-template-columns: 1fr 2fr;
+        gap: 64px;
+    }
+
+    .footer-links {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 32px;
+    }
+}
+
+.feature-story-export .feature-note a {
+    color: var(--aqua);
+}

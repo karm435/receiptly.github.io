@@ -7,6 +7,7 @@
     <meta name="description" content="{{ page.description | escape }}">
     <meta name="theme-color" content="#075968">
     <link rel="canonical" href="{{ page.url | absolute_url }}">
+    {% if page.noindex %}<meta name="robots" content="noindex">{% endif %}
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Receiptly">
     <meta property="og:title" content="{{ page.title | escape }} | Receiptly">
@@ -32,6 +33,7 @@
             </button>
             <div class="nav-menu" id="primary-menu" data-menu>
                 <a href="{{ '/' | relative_url }}">Home</a>
+                <a href="{{ '/faqs/' | relative_url }}"{% if page.url == '/faqs/' %} aria-current="page"{% endif %}>FAQs</a>
                 <a href="{{ '/privacypolicy/' | relative_url }}"{% if page.url == '/privacypolicy/' %} aria-current="page"{% endif %}>Privacy Policy</a>
                 <a href="{{ '/termsofuse/' | relative_url }}"{% if page.url == '/termsofuse/' %} aria-current="page"{% endif %}>Terms of Use</a>
                 <a class="nav-cta" href="{{ '/#download' | relative_url }}">Download</a>
@@ -52,6 +54,7 @@
 
         <div class="shell legal-grid">
             <aside class="legal-sidebar" aria-label="Document navigation">
+                {% if page.sections %}
                 <nav class="legal-toc" aria-labelledby="contents-title">
                     <h2 id="contents-title">On this page</h2>
                     <ol>
@@ -60,9 +63,10 @@
                         {% endfor %}
                     </ol>
                 </nav>
+                {% endif %}
                 <div class="legal-help">
                     <h2>Need a hand?</h2>
-                    <p>For questions about your data or these terms, <a href="#" data-protected-email>contact support</a> or use Contact Support in the app.</p>
+                    <p>For questions about Receiptly or your data, <a href="#" data-protected-email>contact support</a> or use Contact Support in the app.</p>
                 </div>
             </aside>
             <article class="legal-document" aria-labelledby="legal-title">

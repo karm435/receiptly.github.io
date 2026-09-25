@@ -2,15 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://receipttrackerapp.com/</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://receipttrackerapp.com/faqs/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://receipttrackerapp.com/about.html</loc>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://receipttrackerapp.com/presskit/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
   </url>
   <url>
     <loc>https://receipttrackerapp.com/privacypolicy/</loc>
@@ -22,12 +34,6 @@
     <loc>https://receipttrackerapp.com/termsofuse/</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://receipttrackerapp.com/faqs/</loc>
-    <lastmod>2026-09-07</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 </urlset>

@@ -1,0 +1,134 @@
+# Single source for FAQs. Rendered on the homepage (home: true), the FAQs page,
+# and the homepage FAQPage structured data. Use ’ for apostrophes so the
+# structured data text stays free of HTML entities.
+
+- id: platforms
+  home: true
+  question: Is Receiptly on iPhone, iPad, and Android?
+  answer: >-
+    Yes. Download it on the [App Store](https://apps.apple.com/app/id1532569828) for iPhone and iPad,
+    or on [Google Play](https://play.google.com/store/apps/details?id=com.karmafyapps.receiptly) for Android.
+
+- id: sync
+  home: true
+  question: Do iPhone and Android libraries sync?
+  answer: >-
+    No. The Android library does not sync with iPhone or iCloud. Each install keeps receipts on that device.
+    On iPhone and iPad, optional iCloud sync can share a library across your Apple devices only.
+
+- id: scanning
+  home: true
+  question: What does Receiptly scan automatically?
+  answer: >-
+    On-device scanning extracts key receipt details so you can review and save the purchase without entering
+    everything manually. Smart Scan is an optional extra pass for tricky receipts.
+
+- id: batch
+  home: true
+  question: Can I scan multiple receipts at once?
+  answer: >-
+    Yes. Select multiple images or capture several receipt photos, then create separate receipt entries in one batch.
+
+- id: expenses
+  home: true
+  question: Can Receiptly track personal and business expenses?
+  answer: >-
+    Yes. Organize personal or business spending with categories and tags, and track expenses, income, credits,
+    and reimbursements.
+
+- id: export
+  home: true
+  question: Which receipt and expense export formats are supported?
+  answer: >-
+    Receiptly can export receipt and expense information as PDF, CSV, or Excel files. Export is a Receiptly Pro
+    feature on iOS and a Receiptly Plus feature on Android.
+
+- id: warranty
+  home: true
+  question: Can Receiptly remind me when a product warranty expires?
+  answer: >-
+    Yes. Add products to a receipt, record their warranty dates, and use reminders to stay ahead of upcoming expiries.
+
+- id: currency
+  home: true
+  question: Does Receiptly support travel receipts in different currencies?
+  answer: >-
+    Yes. Keep a home currency, choose another currency for a receipt, and store its exchange rate for later
+    reporting and reimbursement.
+
+- id: data
+  home: true
+  question: How does Receiptly handle my receipt data?
+  answer: >-
+    Receipt data is stored on your device. On iOS it can sync through your iCloud account if you enable that.
+    The Android library does not sync with iPhone or iCloud. Smart Scan is optional and may send a reduced
+    receipt image to Google AI services when enabled. Gmail content is not sent to cloud AI services.
+    Read the [full privacy policy](/privacypolicy/).
+
+- id: gmail
+  home: true
+  question: How does Gmail receipt import work?
+  answer: >-
+    On iPhone and iPad, open More, then Integrations, then Gmail, and sign in with Google. Browse recent purchase
+    emails, choose the ones you want, and review the details before saving each one as a receipt. Email text and
+    attachments are processed temporarily on your device. The receipt fields you save and a marker for previously
+    imported emails enter your library and can sync with iCloud. Gmail import is included with Receiptly Pro and is not
+    available on Android.
+    [Read about Gmail privacy](/privacypolicy/#gmail).
+
+- id: gmail-emails
+  question: Can Receiptly change or delete my emails?
+  answer: >-
+    No. Receiptly asks Google for read-only access. It looks for purchases and never sends, changes, or deletes
+    your emails. Google’s permission screen describes this as access to read your email, because Google does not
+    offer a permission limited to purchase emails.
+
+- id: gmail-disconnect
+  question: How do I disconnect Gmail?
+  answer: >-
+    Open More, then Integrations, then Gmail, and tap Disconnect. Receiptly revokes its Google access and removes
+    the saved sign-in. Receipts you already saved stay in your library. You can also remove access from your
+    [Google Account connections](https://myaccount.google.com/connections).
+
+- id: free
+  home: true
+  question: Is Receiptly free?
+  answer: >-
+    Receiptly is free to download. Optional Receiptly Pro purchases on iOS, and Receiptly Plus purchases on
+    Android, unlock features such as Smart Scan, exports, and full reports, plus Gmail import on iPhone and iPad.
+    On Android, adding receipts, reports, and export also require Plus. Android Plus may include a 3-day trial.
+
+- id: cancel
+  question: How do I cancel a subscription?
+  answer: |-
+    - **iPhone and iPad:** App Store account settings.
+    - **Android:** Google Play subscriptions for the Receiptly app.
+
+    Cancel at least 24 hours before the period ends to avoid renewal.
+
+- id: search
+  question: How do I search for a receipt?
+  answer: >-
+    Use the merchant, category, tag, product, or other details on the home screen or Find.
+
+- id: icloud-new-device
+  question: Installed the iOS app on a new Apple device and my receipts are missing?
+  answer: >-
+    iCloud sometimes needs a refresh. On the iPhone or iPad, open Settings, then your Apple Account, then iCloud.
+    Return to Receiptly. This does not apply to Android, and it will not copy an iPhone library to Android.
+
+- id: icloud-stop
+  question: How do I stop iCloud sync on iOS?
+  answer: >-
+    In iOS Settings, open your Apple Account, then iCloud, and turn off Receiptly. Android does not use iCloud.
+
+- id: delete-app
+  question: Do I lose receipt images if I delete the app?
+  answer: >-
+    On iOS, images you saved to Photos can remain in your library, and iCloud copies remain if sync was on.
+    On Android, uninstalling removes the on-device library unless you exported the files yourself.
+
+- id: contact
+  question: How do I contact support?
+  answer: >-
+    Use the in-app Contact Support option, or <a href="#" data-protected-email>email support</a>.

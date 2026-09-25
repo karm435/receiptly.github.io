@@ -1,0 +1,108 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://receipttrackerapp.com/#app-ios",
+      "name": "Receiptly",
+      "alternateName": "Smart Receipt Scan: Receiptly",
+      "description": "A receipt scanner and expense tracker for iPhone and iPad with batch scanning, Gmail receipt import, receipt organization, warranty tracking, multi-currency expenses, reports, PDF, CSV and Excel export, Apple Shortcuts, and optional iCloud sync.",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "iOS 18.0 or later, iPadOS 18.0 or later",
+      "url": "https://receipttrackerapp.com/",
+      "installUrl": "https://apps.apple.com/app/id1532569828",
+      "downloadUrl": "https://apps.apple.com/app/id1532569828",
+      "image": "https://receipttrackerapp.com/images/2026/receiptly-app-icon.png",
+      "screenshot": [
+        "https://receipttrackerapp.com/images/2026/batch-receipt-scanner.jpg",
+        "https://receipttrackerapp.com/images/2026/expense-reports.jpg",
+        "https://receipttrackerapp.com/images/2026/receipt-export.jpg"
+      ],
+      "isAccessibleForFree": true,
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "description": "Free download with optional Receiptly Pro in-app purchases"
+      },
+      "featureList": [
+        "Smart receipt scanning",
+        "Batch receipt scanning",
+        "Gmail receipt import",
+        "Expense and reimbursement tracking",
+        "Warranty tracking and reminders",
+        "PDF, CSV and Excel export",
+        "Multi-currency travel expenses",
+        "Apple Shortcuts automation",
+        "Optional iCloud sync"
+      ],
+      "author": { "@id": "https://receipttrackerapp.com/#organization" }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://receipttrackerapp.com/#app-android",
+      "name": "Receiptly",
+      "alternateName": "Receiptly: Receipt Scanner",
+      "description": "A receipt scanner and expense tracker for Android with on-device OCR, optional Smart Scan, warranty tracking, reports, and PDF, CSV and Excel export. Receipts stay on the device. No iCloud or iPhone sync.",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Android 8.0 or later",
+      "url": "https://receipttrackerapp.com/",
+      "installUrl": "https://play.google.com/store/apps/details?id=com.karmafyapps.receiptly",
+      "downloadUrl": "https://play.google.com/store/apps/details?id=com.karmafyapps.receiptly",
+      "image": "https://receipttrackerapp.com/images/2026/receiptly-app-icon.png",
+      "isAccessibleForFree": true,
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "description": "Free download with optional Receiptly Plus in-app purchases"
+      },
+      "featureList": [
+        "On-device receipt scanning",
+        "Optional Smart Scan",
+        "Expense and reimbursement tracking",
+        "Warranty tracking and reminders",
+        "PDF, CSV and Excel export",
+        "Multi-currency travel expenses"
+      ],
+      "author": { "@id": "https://receipttrackerapp.com/#organization" }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://receipttrackerapp.com/#organization",
+      "name": "Karma Academy",
+      "url": "https://receipttrackerapp.com/",
+      "logo": "https://receipttrackerapp.com/images/2026/receiptly-app-icon.png",
+      "sameAs": [
+        "https://twitter.com/ReceiptsC",
+        "https://www.codewithkarma.com",
+        "https://apps.apple.com/app/id1532569828",
+        "https://play.google.com/store/apps/details?id=com.karmafyapps.receiptly"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://receipttrackerapp.com/#website",
+      "url": "https://receipttrackerapp.com/",
+      "name": "Receiptly",
+      "inLanguage": "en",
+      "publisher": { "@id": "https://receipttrackerapp.com/#organization" }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://receipttrackerapp.com/#faq",
+      "mainEntity": [
+        {%- assign home_faqs = site.data.faqs | where: "home", true -%}
+        {%- for faq in home_faqs %}
+        {
+          "@type": "Question",
+          "name": {{ faq.question | jsonify }},
+          "acceptedAnswer": { "@type": "Answer", "text": {{ faq.answer | markdownify | strip_html | strip | jsonify }} }
+        }{% unless forloop.last %},{% endunless %}
+        {%- endfor %}
+      ]
+    }
+  ]
+}
+</script>

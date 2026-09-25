@@ -1,102 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title | escape }} | Receiptly</title>
-    <meta name="description" content="{{ page.description | escape }}">
-    <meta name="theme-color" content="#075968">
-    <link rel="canonical" href="{{ page.url | absolute_url }}">
-    {% if page.noindex %}<meta name="robots" content="noindex">{% endif %}
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Receiptly">
-    <meta property="og:title" content="{{ page.title | escape }} | Receiptly">
-    <meta property="og:description" content="{{ page.description | escape }}">
-    <meta property="og:url" content="{{ page.url | absolute_url }}">
-    <meta property="og:image" content="{{ '/images/2026/receiptly-app-icon.png' | absolute_url }}">
-    <link rel="icon" type="image/png" href="{{ '/images/2026/receiptly-favicon.png' | relative_url }}">
-    <link rel="apple-touch-icon" href="{{ '/images/2026/receiptly-app-icon.png' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/legal.css' | relative_url }}">
-</head>
-<body class="legal-page" id="top">
-    <a class="skip-link" href="#main-content">Skip to content</a>
-    <header class="site-header" data-header>
-        <nav class="nav-shell" aria-label="Primary navigation">
-            <a class="brand" href="{{ '/' | relative_url }}" aria-label="Receiptly home">
-                <img src="{{ '/images/2026/receiptly-app-icon.png' | relative_url }}" width="44" height="44" alt="" class="brand-icon">
-                <span>Receiptly</span>
-            </a>
-            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-menu" data-menu-toggle>
-                <span class="sr-only">Open navigation</span>
-                <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
-            </button>
-            <div class="nav-menu" id="primary-menu" data-menu>
-                <a href="{{ '/' | relative_url }}">Home</a>
-                <a href="{{ '/faqs/' | relative_url }}"{% if page.url == '/faqs/' %} aria-current="page"{% endif %}>FAQs</a>
-                <a href="{{ '/privacypolicy/' | relative_url }}"{% if page.url == '/privacypolicy/' %} aria-current="page"{% endif %}>Privacy Policy</a>
-                <a href="{{ '/termsofuse/' | relative_url }}"{% if page.url == '/termsofuse/' %} aria-current="page"{% endif %}>Terms of Use</a>
-                <a class="nav-cta" href="{{ '/#download' | relative_url }}">Download</a>
-            </div>
+---
+layout: base
+css: [legal.css]
+body_class: legal-page
+---
+<section class="legal-hero" aria-labelledby="legal-title">
+    <div class="shell">
+        <a class="legal-back" href="{{ '/' | relative_url }}"><span aria-hidden="true">←</span> Back to Receiptly</a>
+        <p class="eyebrow">{{ page.eyebrow | escape }}</p>
+        <h1 id="legal-title">{{ page.title | escape }}</h1>
+        <p class="legal-description">{{ page.description | escape }}</p>
+        <p class="legal-updated">Last updated <time datetime="{{ page.updated | date: '%Y-%m-%d' }}">{{ page.updated | date: '%-d %B %Y' }}</time></p>
+    </div>
+</section>
+
+<div class="shell legal-grid">
+    <aside class="legal-sidebar" aria-label="Document navigation">
+        {% if page.sections %}
+        <nav class="legal-toc" aria-labelledby="contents-title">
+            <h2 id="contents-title">On this page</h2>
+            <ol>
+                {% for section in page.sections %}
+                <li><a href="#{{ section.id | escape }}">{{ section.title | escape }}</a></li>
+                {% endfor %}
+            </ol>
         </nav>
-    </header>
-
-    <main id="main-content" tabindex="-1">
-        <section class="legal-hero" aria-labelledby="legal-title">
-            <div class="shell">
-                <a class="legal-back" href="{{ '/' | relative_url }}"><span aria-hidden="true">←</span> Back to Receiptly</a>
-                <p class="eyebrow">{{ page.eyebrow | escape }}</p>
-                <h1 id="legal-title">{{ page.title | escape }}</h1>
-                <p class="legal-description">{{ page.description | escape }}</p>
-                <p class="legal-updated">Last updated <time datetime="{{ page.updated | date: '%Y-%m-%d' }}">{{ page.updated | date: '%-d %B %Y' }}</time></p>
-            </div>
-        </section>
-
-        <div class="shell legal-grid">
-            <aside class="legal-sidebar" aria-label="Document navigation">
-                {% if page.sections %}
-                <nav class="legal-toc" aria-labelledby="contents-title">
-                    <h2 id="contents-title">On this page</h2>
-                    <ol>
-                        {% for section in page.sections %}
-                        <li><a href="#{{ section.id | escape }}">{{ section.title | escape }}</a></li>
-                        {% endfor %}
-                    </ol>
-                </nav>
-                {% endif %}
-                <div class="legal-help">
-                    <h2>Need a hand?</h2>
-                    <p>For questions about Receiptly or your data, <a href="#" data-protected-email>contact support</a> or use Contact Support in the app.</p>
-                </div>
-            </aside>
-            <article class="legal-document" aria-labelledby="legal-title">
-                {{ content }}
-                <div class="legal-end">
-                    <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
-                    {% if page.url == '/privacypolicy/' %}
-                    <a href="{{ '/termsofuse/' | relative_url }}">Read the Terms of Use <span aria-hidden="true">→</span></a>
-                    {% else %}
-                    <a href="{{ '/privacypolicy/' | relative_url }}">Read the Privacy Policy <span aria-hidden="true">→</span></a>
-                    {% endif %}
-                </div>
-            </article>
+        {% endif %}
+        <div class="legal-help">
+            <h2>Need a hand?</h2>
+            <p>For questions about Receiptly or your data, <a href="#" data-protected-email>contact support</a> or use Contact Support in the app.</p>
         </div>
-    </main>
-
-    <footer class="site-footer">
-        <div class="shell footer-grid">
-            <div class="footer-brand-block">
-                <a class="brand brand-footer" href="{{ '/' | relative_url }}"><img src="{{ '/images/2026/receiptly-app-icon.png' | relative_url }}" width="40" height="40" alt="" class="brand-icon" loading="lazy"><span>Receiptly</span></a>
-                <p>A thoughtful receipt scanner and expense tracker for iPhone, iPad, and Android.</p>
-            </div>
-            <nav class="footer-links" aria-label="Footer navigation">
-                <div><strong>Product</strong><a href="{{ '/#features' | relative_url }}">Features</a><a href="{{ '/faqs/' | relative_url }}">FAQs</a><a href="https://apps.apple.com/app/id1532569828">App Store</a><a href="https://play.google.com/store/apps/details?id=com.karmafyapps.receiptly">Google Play</a></div>
-                <div><strong>Company</strong><a href="{{ '/about.html' | relative_url }}">About</a><a href="#" data-protected-email>Contact</a><a href="https://twitter.com/ReceiptsC">X / Twitter</a></div>
-                <div><strong>Legal</strong><a href="{{ '/privacypolicy/' | relative_url }}">Privacy Policy</a><a href="{{ '/termsofuse/' | relative_url }}">Terms of Use</a></div>
-            </nav>
+    </aside>
+    <article class="legal-document" aria-labelledby="legal-title">
+        {{ content }}
+        <div class="legal-end">
+            <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
+            {% if page.url == '/privacypolicy/' %}
+            <a href="{{ '/termsofuse/' | relative_url }}">Read the Terms of Use <span aria-hidden="true">→</span></a>
+            {% else %}
+            <a href="{{ '/privacypolicy/' | relative_url }}">Read the Privacy Policy <span aria-hidden="true">→</span></a>
+            {% endif %}
         </div>
-        <div class="shell footer-bottom"><span>© {{ site.time | date: '%Y' }} Receiptly by Karma Academy.</span><span>Made thoughtfully in Brisbane.</span></div>
-    </footer>
-    <script src="{{ '/script.js' | relative_url }}" defer></script>
-</body>
-</html>
+    </article>
+</div>

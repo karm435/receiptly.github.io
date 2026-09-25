@@ -1,0 +1,30 @@
+# Site links used by the shared header and footer.
+
+header:
+  - { title: Home, url: / }
+  - { title: FAQs, url: /faqs/ }
+  - { title: About, url: /about/ }
+  - { title: Privacy Policy, url: /privacypolicy/ }
+
+footer:
+  - title: Product
+    links:
+      - { title: Features, url: /#features }
+      - { title: Reviews, url: /#testimonials }
+      - { title: FAQs, url: /faqs/ }
+      - { title: App Store, url: "https://apps.apple.com/app/id1532569828" }
+      - { title: Google Play, url: "https://play.google.com/store/apps/details?id=com.karmafyapps.receiptly" }
+  - title: Features
+    links:
+      - { title: Gmail receipt import, url: /gmail-receipt-import/, summary: Turn purchase emails into receipts on iPhone and iPad. }
+      - { title: Warranty tracker, url: /warranty-tracker/, summary: Keep warranty dates with the receipt and get reminded before they expire. }
+      - { title: Receipt export, url: /receipt-export/, summary: "Export receipts and expenses as PDF, CSV, or Excel files." }
+  - title: Company
+    links:
+      - { title: About, url: /about/ }
+      - { title: Contact, url: "#", email: true }
+      - { title: X / Twitter, url: "https://twitter.com/ReceiptsC" }
+  - title: Legal
+    links:
+      - { title: Privacy Policy, url: /privacypolicy/ }
+      - { title: Terms of Use, url: /termsofuse/ }
